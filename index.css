@@ -1,28 +1,31 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  border: 1px solid rgb(25, 112, 103);
+  /*box-sizing: border-box;
+ border: 1px solid rgb(25, 112, 103);
   background-color: aliceblue;
+  */
   font-family: "Roboto Mono", monospace;
 }
 
 nav a {
   margin: 0 6rem;
   margin-top: 0.5rem;
+  margin-left: 12%;
+  margin-bottom: 1rem;
   border: 1px solid lightgray;
   padding: 1rem;
   display: inline-block;
   border-radius: 0.5rem;
   color: white;
   text-decoration: none;
-  margin-bottom: 1rem;
   display: inline-block;
 }
 
 h1 {
   font-family: "Chelsea Market", cursive;
   text-align: center;
+  margin-top: 3%;
 }
 
 p {
@@ -36,16 +39,46 @@ footer img {
 #Peri {
   border-radius: 100%;
   float: left;
-  width: 140px;
-  height: 140px;
+  width: 16rem;
+  height: 16rem;
+  margin-left: 10%;
 }
 
 .container-box {
   margin: 0 5%;
   margin-top: 10%;
 }
+
+p {
+  width: 33%;
+}
+
 .container-box p {
   background-color: #ddb9a3;
   width: 90%;
+  margin-left: 5%;
   color: rgb(241, 232, 232);
+}
+
+footer {
+  margin-top: 20%;
+  background-color: #f9e7dc;
+}
+
+footer nav {
+  margin: 0;
+}
+.orta {
+  margin-left: 38%;
+}
+
+.orta img {
+  width: 20%;
+  margin-left: 3.8rem;
+  margin-top: 4rem;
+}
+
+.header-p {
+  margin-left: 46%;
+  padding-top: 2%;
 }
