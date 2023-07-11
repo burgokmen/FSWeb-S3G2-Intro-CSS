@@ -32,3 +32,20 @@ p {
 footer img {
   width: 100%;
 }
+
+#Peri {
+  border-radius: 100%;
+  float: left;
+  width: 140px;
+  height: 140px;
+}
+
+.container-box {
+  margin: 0 5%;
+  margin-top: 10%;
+}
+.container-box p {
+  background-color: #ddb9a3;
+  width: 90%;
+  color: rgb(241, 232, 232);
+}
